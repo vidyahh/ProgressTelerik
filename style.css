@@ -1,0 +1,215 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    background: #222;
+    color: #fff;
+    padding: 10px 20px;
+}
+.header .logo {
+    font-size: 20px;
+    font-weight: bold;
+} 
+.header .logo span {
+    color: #4CAF50;
+}
+.nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+} 
+.nav ul li {
+    margin: 0 10px;
+}  
+.nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.section1 {
+    text-align: center;
+    padding: 50px 20px;
+    background: url('dev2.jpg') no-repeat center center/cover;
+    color: white;
+}
+.section1 h1 {
+    font-size: 3rem;
+} 
+.section1 p {
+    font-size: 1.2rem;
+}
+
+.section2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+  
+.box1 {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    border-top: 100px;
+} 
+.box1 h2 {
+    color: #4CAF50;
+    font-size: 0.9rem;
+    
+
+}
+.box1 h3{
+    font-size: 2rem;
+} 
+.box1 button {
+    background: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+} 
+.box1 button:hover {
+    background: #45a049;
+}
+
+.box2 {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    border-top: 100px;
+
+} 
+.box2 h2 {
+    color: #2f7ef4;
+    font-size: 0.9rem;
+}
+.box2 h3{
+    font-size: 2rem;
+} 
+.box2 button {
+    background: #2f7ef4;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+} 
+.box2 button:hover {
+    background: #2f7ef4;
+}
+
+.box3 {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    border-top: 100px;
+
+} 
+.box3 h2 {
+    color: #f41919;
+    font-size: 0.9rem;
+}
+.box3 h3{
+    font-size: 2rem;
+} 
+.box3 button {
+    background: #f41919;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+} 
+.box3 button:hover {
+    background: #f41919;
+}
+
+.section3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.box4 {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    border-top: 100px;
+
+} 
+.box4 h2 {
+    color: #0d0808;
+    font-size: 0.9rem;
+}
+.box4 h3{
+    font-size: 2rem;
+} 
+.box4 button {
+    background: #0d0808;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+} 
+.box4 button:hover {
+    background: #0d0808;
+}
+
+.box5 {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    border-top: 100px;
+
+} 
+.box5 h2 {
+    color: #0d0808;
+    font-size: 0.9rem;
+}
+.box5 h3{
+    font-size: 2rem;
+} 
+.box5 button {
+    background: #0d0808;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+} 
+.box5 button:hover {
+    background: #0d0808;
+}
+
+.box6 {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    border-top: 100px;
+
+} 
+.box6 h2 {
+    color: #0d0808;
+    font-size: 0.9rem;
+}
+.box6 h3{
+    font-size: 2rem;
+} 
+.box6 button {
+    background: #0d0808;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+} 
+.box6 button:hover {
+    background: #0d0808;
+}
